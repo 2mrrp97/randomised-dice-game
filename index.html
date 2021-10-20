@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dice Game</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+</head>
+
+<body>
+  <button class="audio_btn"><strong><i style="color : green ; font-size:20px;">AUDIO ON</i></strong>
+  </button>
+
+  <div class=" vlControlContainer">
+    <img data-id="minus" class="vlControl" src="./images/minus.png" alt="">
+    <input id="volVal" type="range" min="0" max="100" value="100">
+    <img data-id="add" class="vlControl" src="./images/add.png" alt="">
+
+  </div>
+  <div class="container">
+    <button id="play">
+      <h1>Click me to Play</h1>
+    </button>
+    <h2 class="hidden winnerText">Player x Wins !</h2>
+    <div class=" dice">
+      <p>Player's Dice</p>
+      <img class="img1" src="./images/dice1.png" alt="player's Dice">
+    </div>
+
+    <div class="dice">
+      <p>Computer's Dice</p>
+      <img class="img2" src="./images/dice1.png">
+    </div>
+
+  </div>
+
+</body>
+
+<footer class="footer">
+  <h3>This website was made by <a href="#"><i>mrrp.</i></a></h3>
+</footer>
+
+<script src="./scripts/script.js"></script>
+
+</html>
